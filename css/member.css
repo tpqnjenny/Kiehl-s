@@ -1,0 +1,82 @@
+@charset "utf-8";
+*, *:after, *:before{box-sizing: border-box;}
+a{text-decoration: none; color: inherit;}
+
+.menubar{float: left;
+  margin-left: 10px;
+  line-height: 60px;}
+  .menubar img{width: 20px;}
+.user{float: right;}
+  .user li{display: inline-block;
+    margin-right: 10px;
+    line-height: 60px;}
+  .user img{width: 20px;}
+
+#join{width: 90%; margin: 70px auto;}
+  #join h2{margin-top: 30px;
+    text-align: center;
+    font-size: 2rem;}
+  #join h3{margin-bottom: 30px;
+    text-align: center;
+    color: #999;
+    font-size: 0.9rem;}
+.input{width: 100%; margin: 0 auto;}
+  .input label{float: left;
+    width: 25%; height: 40px;
+    margin: 10px 0;
+    line-height: 40px;
+    font-size: 0.8rem;
+    font-weight: bold;}
+  .input input{float: right;
+    width: 75%; height: 40px;
+    margin: 10px 0;
+    color: #999;
+    border: 1px solid #999;
+    border-radius: 5px;}
+  .input p{font-size: 0.6rem;
+    color: #666;}
+  .input span{font-size: 0.6rem;}
+.input input:focus{outline: none;
+  color: #000;
+  font-weight: bold;}
+#id, #pw{margin-bottom: 0;}
+#id{float: left; width: 50%;}
+.dupl{float: right;
+  width: 23%; height: 40px;
+  margin-left: 1%;
+  margin-top: 10px;
+  font-weight: bold;
+  border: 1px solid #999;
+  border-radius: 5px; 
+  background: rgb(179, 179, 179);}
+#address{float: left; width: 43%;}
+.code{float: right;
+  width: 30%; height: 40px;
+  margin-top: 10px;
+  font-weight: bold;
+  border: 1px solid #999;
+  border-radius : 5px;
+  background: rgb(179, 179, 179);}
+.agreement{width: 100%;
+  margin: 10px auto;
+  font-size: 0.7rem;}
+.title{float: left;
+  width: 25%;
+  font-size: 0.8rem;
+  font-weight: bold;}
+.agr_sub{float: right;
+  width: 75%;}
+  .agr_sub span{font-size: 0.6rem;}
+.agree_all{margin-bottom: 10px;
+  font-size: 0.8rem;
+  font-weight: bold;}
+.sns{margin-left: 5%;}
+
+.submit{width: 80%; height: 40px;
+  margin: 20px auto;
+  text-align: center;}
+  .submit input{font-size: 1.1rem;
+    font-weight: bold;
+    border: 1px solid #333;
+    border-radius: 5px; 
+    background: rgb(179, 179, 179)}
